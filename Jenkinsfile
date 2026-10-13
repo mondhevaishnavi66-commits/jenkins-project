@@ -4,7 +4,7 @@ pipeline {
     agent any
 
     environment {
-        APP_PATH   = "/var/lib/jenkins/workspace/shared-pipeline"
+        APP_PATH   = "/var/lib/jenkins/workspace/shared-122"
         IMAGE_NAME = "vivaa2711/nginx-app"
         IMAGE_TAG  = "latest"
     }
